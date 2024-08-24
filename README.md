@@ -1,26 +1,30 @@
-**Project Overview**
+## Project Overview
 
 The goal of the project is to make my own implementation of Bash `cat` and `grep` utilities in C language fully supporting all original flags, including paired combinations. 
 
-**Key Parts**
+## Key Parts
 
 - I successfully implemented cat and grep in C, with full support for all flags and their combinations.
 - I wrote unit-tests in Python and Bash to validate the corectness of project.
 - Also I made Makefile to automate project build and testing.
 
-**Usage**
+## Usage
 
 clone this repository
+
 **cat**:
+
 1. `cd s21_string.h/src/cat`
 2. run `make all` to build project
 3. run `make test` to run tests
+   
 **grep**:
+
 1. `cd s21_string.h/src/grep`
 2. run `make all` to build project
 3. run `make test` to run tests
 
-**cat options**
+## cat options
 
 `cat [OPTION] [FILE]`
 
@@ -32,7 +36,7 @@ clone this repository
 | 4 | -s (GNU: --squeeze-blank) | squeeze multiple adjacent blank lines |
 | 5 | -t implies -v (GNU: -T the same, but without implying -v) | but also display tabs as ^I  |
 
-**grep options**
+## grep options
 
 `grep [OPTION] [TEMPLATE] [FILE]`
 
